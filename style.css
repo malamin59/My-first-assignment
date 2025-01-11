@@ -3,7 +3,7 @@
     padding:0;
 }
 #main_area{
-    /* width: 1080px; */
+    width: 90%;
 }
 #main_area button:hover{
     background-color:rebeccapurple ;
