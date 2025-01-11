@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding:0;
+}
+/* #main_section{
+    width: 90%;
+   margin: 0 auto;
+} */
+
+/* nav area */
+.nav_style{
+width: 1600px;
+height: 100px;
+
+
+}
+nav li{
+list-style: none;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 22px;
+font-weight: 750;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Button area style */
+button:hover{
+    background: aqua;
+   transition: 0.5s;
+}
+nav button{
+width: 100px;
+height: 45px;
+gap: 49;
+padding: 10px 20px 10px 20px;
+margin: 0px 10px;
+overflow: hidden;
+border: 1px solid #006a50;
+border-radius: 8px ;
+
+}
+nav button span{
+    color:#006a50 ;
+    font-size: 18px;
+}
+
+
+
+.parent{
+
+    /* Frame 4 */
+position: static;
+width: 980px;
+height: 410px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 644;
+padding: 60px 80px 60px 80px;
+border-radius: 24px;
+background: rgb(198, 228, 214);
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 80px 0px;
+
+
+
+}
+.content_area p {
+color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+text-align: left;
+margin: 16px;
+width: 622px;
+height: 29px;
+justify-content: flex-start;
+align-items: flex-start;
+margin: 16px 0px;
+}
+
+
+.content_area h3 {
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 50px;
+font-weight: 600;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+margin: 16px 0px;
+width: 622px;
+height: 201px;
+/* flex-direction: column; */
+/* justify-content: flex-start; */
+padding: 0px;
+
+}
+.content_area button{
+position: static;
+width: 270px;
+height: 56px;
+padding: 10px 25px 10px 25px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+margin: 24px 0px;
+border: none;
+}
+.content_area button:hover{
+    background: rebeccapurple;
+}
+/* image area style */
+
+.image_area{
+width: 474.03px;
+height: 329.21px;
+left: 157.37%;
+right: -157.37%;
+top: 20%;
+bottom: -2.3%;
+}
