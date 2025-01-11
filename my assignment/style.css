@@ -558,7 +558,7 @@ border: none;
     background: url(image);
     float: left;
     }
-    .Donate_class{
+    .Donate_class h5{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
 font-size: 40px;
@@ -567,7 +567,7 @@ line-height: 48px;
 letter-spacing: 0%;
 text-align: center;
     }
-  .alaminn{
+  .Donate_class p{
 color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
 font-size: 16px;
@@ -575,4 +575,75 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: center;
+margin: 18px auto 15px auto;
+
     }
+.last_parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24;
+}
+.last_div{
+    width: 240px;
+    height: 128px;
+    padding: 40px;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(198, 228, 214);
+}
+input{
+width: 90%;
+height: 35px;
+margin: 32px 0px;
+box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+border: none;
+}
+input::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+height: 100vh;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last_button{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.last_button button{
+margin: 32px 0px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgb(0, 106, 80);
+
+
+}
